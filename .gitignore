@@ -122,3 +122,8 @@ output/
 # Caffe model files
 *.caffemodel
 
+# Training directory
+training/
+
+# Training/Validation Image lists 
+*_list.txt
