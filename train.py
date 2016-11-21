@@ -191,7 +191,7 @@ def main():
                              'https://github.com/fyu/caffe-dilation.')
     parser.add_argument('--weights', default=None,
                         help='Path to the weights to initialize the model.')
-    parser.add_argument('--mean', nargs='*', default=[102.93, 111.36, 116.52],
+    parser.add_argument('--mean', nargs='*', default=[102.93, 111.36, 116.52], type=float,
                         help='Mean pixel value (BGR) for the dataset.\n'
                              'Default is the mean pixel of PASCAL dataset.')
     parser.add_argument('--work_dir', default='training/',

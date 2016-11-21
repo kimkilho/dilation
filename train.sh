@@ -10,7 +10,7 @@ LD_LIBRARY_PATH=caffe-dilation/build_master/lib PYTHONPATH=caffe-dilation/build_
   --train_label train_label_list.txt \
   --test_image val_image_list.txt \
   --test_label val_label_list.txt \
-  --mean [70, 74, 84] \
+  --mean 70.25 74.17 84.73 \
   --train_batch 6 \
   --test_batch 2 \
   --caffe caffe-dilation/build_master/tools/caffe \

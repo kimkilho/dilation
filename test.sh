@@ -4,7 +4,7 @@ LD_LIBRARY_PATH=caffe-dilation/build_master/lib PYTHONPATH=caffe-dilation/build_
   --image_list val_image_list.txt \
   --bin_list val_image_list.txt \
   --bin \
-  --mean [70, 74, 84] \
+  --mean 70.25 74.17 84.73 \
   --weights training/snapshots/frontend_vgg_iter_124000.caffemodel \
   --classes 2
 
